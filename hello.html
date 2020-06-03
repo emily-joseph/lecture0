@@ -1,11 +1,54 @@
 <!DOCTYPE html >
 <html>
-<head>
-	<title> My Webpage! </title>
-</head>
-<body>
-
-    Hello, world! I'm Emily! Hi again!Bye!
-
-</body>
+   <head>
+      <title> My Webpage! </title>
+      <link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+   </head>
+   <body>
+      <h1>This is a h1 tag</h1>
+      <h1>This is a second h1 tag</h1>
+      <p> A p tag</p>
+      <img src="IMG_0413.JPG" width="80%" height="80%">
+      <table>
+         <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Age</th>
+         </tr>
+         <tr>
+            <td>Evelyn</td>
+            <td>Joseph</td>
+            <td>5</td>
+         </tr>
+         <tr>
+            <td>Emily</td>
+            <td>Joseph</td>
+            <td>13</td>
+         </tr>
+      </table>
+      <form id="cardForm">
+         <input type="email" id="senderEmail" placeholder="Eneter your Email" required>         
+         <input type="text" id="senderName" placeholder= "Enter your Name" required>         
+         <input type="text" id="recieverName" placeholder= "Enter your Friend's Name" required>    
+         <textarea id="message" placeholder= "Enter your Message" required></textarea>
+         <label> Enter the card type </label>
+         <select id="cardType" required>
+            <option> Halloween </option>
+            <option> Christmas </option>
+            <option> Birthday </option>
+         </select>
+         <input type="submit" class="submitBtn">
+      </form>
+      <div>
+         <h1> Hello</h1>
+      </div>
+            <div id="top">
+         This is the <span class="name">top</span> of my webpage.
+      </div><div id="middle">
+         This is the <span class="name">middle</span> of my webpage.
+      </div><div id="bottom">
+         This is the <span class="name">bottom</span> of my webpage.
+      </div>
+   </body>
 </html>

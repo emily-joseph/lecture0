@@ -1,0 +1,46 @@
+h1, p{
+   color: purple;
+   text-align: center;
+   font-size: 50px;
+   font-family: 'Open Sans Condensed', sans-serif;
+   }
+
+   div{
+   background-color: grey;
+   border-style: dashed;
+   margin: 70px;
+   padding: 30px;
+   }
+
+   table {
+   	border:3px solid green;
+   	border-collapse:collapse;
+   	width: 50%;
+   }
+
+   th, td{
+   	border:1px solid green;
+   	padding: 5px; 
+   	text-align: center;
+   }
+
+th{
+background-color: grey; 	
+}
+
+.name {
+	color: red;
+	padding:20px;
+}
+
+#top{
+ font-size: 40px;
+}
+
+#middle{
+ font-size: 30px;
+}
+
+#bottom{
+ font-size: 20px;
+}
