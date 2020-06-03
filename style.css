@@ -19,9 +19,10 @@ h1, p{
    }
 
    th, td{
-   	border:1px solid green;
+   	border:1px solid lightblue;
    	padding: 5px; 
    	text-align: center;
+
    }
 
 th{
